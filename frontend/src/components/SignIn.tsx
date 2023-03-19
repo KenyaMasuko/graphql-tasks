@@ -34,8 +34,6 @@ const SignIn = () => {
 				variables: { signInInput },
 			});
 
-			console.log(result);
-
 			if (result.data) {
 				localStorage.setItem("token", result.data.signIn.accessToken);
 			}

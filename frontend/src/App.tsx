@@ -1,7 +1,7 @@
 import Main from "./components/Main";
 import NotFound from "./components/NotFound";
 import SignIn from "./components/SignIn";
-import SignUp from "./components/SingUp";
+import SignUp from "./components/SignUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
 import { GuestRoute, PrivateRoute } from "./AuthRoute";
